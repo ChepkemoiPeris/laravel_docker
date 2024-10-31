@@ -1,7 +1,6 @@
 ## How to run this project
         ```bash
     docker compose build
-        ```bash
     docker compose up -d
 
 ### Access the app
