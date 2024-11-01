@@ -64,7 +64,7 @@
 
                                 <div class="pt-3 sm:pt-5">
                                     <h2 class="text-xl font-semibold text-black dark:text-white">Dockerize laravel application and deploy with Github actions </h2>
-  
+                                    <h2>Checking github actions now</h2>
                                     <p class="mt-4 text-sm/relaxed">
                                         Ready to streamline your Laravel development and deployment process? Dockerizing your application is the key! <br/>
 
