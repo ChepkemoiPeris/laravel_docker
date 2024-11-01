@@ -5,14 +5,10 @@ echo "Deployment started ..."
 
 # Enter maintenance mode or return true
 # if already is in maintenance mode
-(php artisan down) || true
+(php artisan down) || true 
 
 # Pull the latest version of the app
-# Stash local changes to avoid conflicts
-# Fetch the latest updates and reset any local changes for deploy.sh
-git fetch origin main
-git update-index --skip-worktree .scripts/deploy.sh  # Ignore changes to deploy.sh
-git reset --hard origin/main  
+git pull origin main
 
 # Install composer dependencies
 composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
