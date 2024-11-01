@@ -88,6 +88,8 @@
                                         Version Control: Docker images and Dockerfiles enable version control for your application’s environment. You can track changes, roll back to previous versions, and ensure that everyone on your team is using the same environment.<br/>
 
                                         Docker Compose: Docker Compose simplifies the orchestration of multi-container applications, making it easier to define, configure, and run complex setups.
+
+                                        We are updating this to check on deploy github actions
                                         <a href="#" class="rounded-md px-3 py-2 bg-blue-500 text-white hover:bg-blue-700">Start Dockerizing Your Laravel App</a>
                                     </p> 
                                 </div>
