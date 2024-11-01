@@ -9,7 +9,7 @@ echo "Deployment started ..."
 
 # Pull the latest version of the app
 # Stash local changes to avoid conflicts
-git stash --include-untracked
+git stash 
 
 # Pull the latest version of the app
 git pull origin main
