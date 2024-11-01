@@ -9,8 +9,9 @@ echo "Deployment started ..."
 
 # Pull the latest version of the app
 # git pull origin main
-git pull --no-rebase origin main
+git pull origin main
 
+chmod +x .scripts/deploy.sh
 # Install composer dependencies
 composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
 
