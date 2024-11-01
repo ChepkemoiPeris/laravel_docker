@@ -11,7 +11,6 @@ echo "Deployment started ..."
 # git pull origin main
 git pull origin main
 
-chmod +x .scripts/deploy.sh
 # Install composer dependencies
 composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
 
