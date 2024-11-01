@@ -89,7 +89,7 @@
 
                                         Docker Compose: Docker Compose simplifies the orchestration of multi-container applications, making it easier to define, configure, and run complex setups.
 
-                                        We are updating this to check on deploy github actions  
+                                        We are updating this to check on deploy github actions <b>NOW IT'S UPDATED</b>
                                         <a href="#" class="rounded-md px-3 py-2 bg-blue-500 text-white hover:bg-blue-700">Start Dockerizing Your Laravel App</a>
                                     </p> 
                                 </div>
