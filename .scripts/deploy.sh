@@ -12,8 +12,7 @@ if ! git diff-index --quiet HEAD --; then
     git stash
 fi
 
-# Pull the latest version of the app
-echo "Pulling the latest changes from the repository..."
+# Pull the latest version of the app 
 git pull origin main
 
 # Install composer dependencies
